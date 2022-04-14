@@ -1,0 +1,19 @@
+{
+  "name": "coisinhas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arrowfunctions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelS0usa/estudos.git"
+  },
+  "author": "Rafael de Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelS0usa/estudos/issues"
+  },
+  "homepage": "https://github.com/RafaelS0usa/estudos#readme"
+}

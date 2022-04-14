@@ -1,6 +1,6 @@
 //ARQUIVO PARA APRENDER O SWITCH!!!!!!!!!
 
-const frutas = 'uva'
+const frutas = 'mamão'
 
 switch (frutas){
     case 'maçã':

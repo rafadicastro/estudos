@@ -1,0 +1,25 @@
+.cabecalho {
+    background-color: #501580f6; 
+    padding: 10px; 
+    border-bottom: solid;
+    text-align: center; 
+}
+
+h1 {
+    color: black;
+    border-radius: 1%;
+    background-color: blueviolet;
+    width: fit-content;
+    position: relative;
+}
+
+img {
+    border-radius: 51%;
+}
+
+.historia {
+    background-image: url(../img/神奇小竹筍.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+}

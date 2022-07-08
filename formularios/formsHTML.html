@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição Grupo de Jovens</title>
+    <link rel="stylesheet" href="formCSS.css">
+</head>
+<body">
+    <div><h1>Bem vindos ao grupo de jovens do Jardim Icarai</h1></div>
+
+    <p class="1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, facilis amet unde error atque nemo, ex ad pariatur nihil deserunt, in fugiat dolore at vel ducimus soluta nesciunt placeat laborum?</p>
+
+    <p class="2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad dicta voluptates cum quia tempora laboriosam architecto sed excepturi. Enim culpa officiis quisquam perspiciatis dolores dignissimos magni accusamus corporis? Sunt, quisquam?</p>
+
+    <p class="paragrafoUm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus laboriosam officia laudantium numquam explicabo deserunt nulla cum, saepe, consectetur blanditiis doloribus illum sequi. Quae, expedita. Voluptatibus aut excepturi quos ut.</p>
+
+    <form>
+        <label for="Nome">Nome</label>
+        <input type="text" placeholder="Nome" id="nome" name="senha">
+        <br>
+
+        <label for="Email">Email</label>
+        <input type="email" placeholder="Email@email.com" id="email" name="Email">
+        <br>
+
+        <label>Você já participou de algum grupo de jovens?</label>
+        <br>
+
+        <input type="radio" name="pergunta1" id="sim" value="sim">
+        <label for="sim">Sim</label>
+        <br>
+
+        <input type="radio" name="pergunta1" id="nao" value="nao">
+        <label for="nao">Não</label>
+        <br>
+
+        <input type="radio" name="pergunta1" id="naolembro" value="naolembro">
+        <label for="naolembro">Não lembro</label>
+        <br>
+        <br>
+
+        <label>Se sim, Qual o movimento/tipo de grupo?</label>
+        <br>
+        <select name="movimento" id="movimento" required>
+            <option selected disabled>Selecione</option>
+            <option value="PJ">Pastoral da Juventude</option>
+            <option value="PJMP">Pastoral da Juventude do Meio Popular</option>
+            <option value="Renovacao">Renovação Carismática</option>
+        </select><br>
+
+        <input type="checkbox" name="tipo" id="PJ" value="PJ">
+        <label for="PJ">PJ - (Pastoral da Juventude)</label>
+        <br>
+
+        <input type="checkbox" name="tipo" id="PJMP" value="PJMP">
+        <label for="PJMP">PJMP - (Pastoral da Juventude do Meio Popular)</label>
+        <br>
+
+        <input type="checkbox" name="tipo" id="Shalom" value="Shalom">
+        <label for="Renovacao">Renovação Carismática</label>
+        <br>
+        <br>
+
+        <!-- <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button type="submit">Enviar</button> -->
+    </form>
+</body>
+</html>

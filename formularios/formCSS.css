@@ -1,0 +1,41 @@
+input:hover {
+    border-color: blue;
+}
+
+input:focus {
+    width: 100px;
+}
+
+p:hover {
+    color: green;
+}
+
+p:first-of-type {
+    background-color: goldenrod;
+}
+
+p:nth-child(odd) {
+    background-color: rgb(227, 4, 227);
+}
+
+/* p:nth-child(even) {
+    background-color: rgb(227, 4, 227);
+} */
+
+/* p{
+    position: relative;
+    z-index: 10;
+} Isso quer dizer que o elemento vai se sobrepor a outro 10px pra frente, por padrão, o z-index vem com o z-index: 1; */ 
+/* 
+position relative: pequenas compensações e sobreposições.
+position absolute: posicionar elementos absolutamente em relação aos lados do body.
+position fixed: deixar o elemento fixado em algum lugar da tela e acompanhar o scroll
+relative + absolute: o elemento com position absolute toma como referencia as arestas do pai e não do body.
+*/
+.paragrafoUm{
+    position: relative;
+    bottom: 2;
+    left: 3;
+    right: 4;
+    top: 5; 
+}
